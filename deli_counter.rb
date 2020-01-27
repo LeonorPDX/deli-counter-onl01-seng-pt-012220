@@ -11,3 +11,8 @@ def line(katz_deli)
       puts line_count
     end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli << name
+  puts "Hello #{name}, your position in line is number #{katz_deli.length}"
+end
