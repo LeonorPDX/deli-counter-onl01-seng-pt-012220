@@ -5,9 +5,9 @@ def line(katz_deli)
       puts "The line is currently empty."
     else
       line_count = "The line is currently: "
-      katz_deli.each_with_index do |name, i|
+       katz_deli.each_with_index do |name, i|
         line_count << "#{i+1}. #{name} "
+       end
       puts line_count
-      end
     end
 end
