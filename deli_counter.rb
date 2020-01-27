@@ -5,9 +5,8 @@ def line(katz_deli)
       puts "The line is currently empty."
     else
       line_count = "The line is currently:"
-      customer_list = []
       katz_deli.each_with_index |name, i|
-       customer_list << ""
+       line_count << "#{i+1}"
       
       
     end
